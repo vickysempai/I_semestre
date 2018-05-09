@@ -22,16 +22,3 @@ def ordenar(lista_2,lista_1,lista_0,resultado):
     except:
         return resultado
 """
-##ejercicio 12
-def es_fibonacci(num):
-    """verifica si el numero ya es parte del fibonacci"""
-    return es_fibonacci_aux(num,0,1)
-
-def es_fibonacci_aux(num,valor_anterior,valor):
-    print(valor)
-    """crea la sucecion de fibonacci"""
-    if valor>num:
-        return False
-    if valor==num:
-        return True
-    return es_fibonacci_aux(num,valor,valor+valor_anterior)
